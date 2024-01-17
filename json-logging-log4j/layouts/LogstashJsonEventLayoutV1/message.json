@@ -1,0 +1,9 @@
+{
+  "@version": 1,
+  "source_host": "PC",
+  "message": "Started JsonLoggingLog4jApplication in 0.951 seconds (process running for 1.628)",
+  "thread_name": "main",
+  "@timestamp": "2024-01-17T09:09:07.272+0100",
+  "level": "INFO",
+  "logger_name": "com.example.jsonlogginglog4j.JsonLoggingLog4jApplication"
+}

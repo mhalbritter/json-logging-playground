@@ -1,0 +1,14 @@
+{
+  "instant": {
+    "epochSecond": 1705479143,
+    "nanoOfSecond": 466995479
+  },
+  "thread": "main",
+  "level": "INFO",
+  "loggerName": "com.example.jsonlogginglog4j.JsonLoggingLog4jApplication",
+  "message": "Started JsonLoggingLog4jApplication in 0.875 seconds (process running for 1.406)",
+  "endOfBatch": false,
+  "loggerFqcn": "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId": 1,
+  "threadPriority": 5
+}

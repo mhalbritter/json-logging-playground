@@ -1,0 +1,146 @@
+{
+  "instant": {
+    "epochSecond": 1705479143,
+    "nanoOfSecond": 470653831
+  },
+  "thread": "main",
+  "level": "ERROR",
+  "loggerName": "com.example.jsonlogginglog4j.CLR",
+  "message": "Boom",
+  "thrown": {
+    "message": null,
+    "name": "java.lang.RuntimeException",
+    "extendedStackTrace": [
+      {
+        "class": "com.example.jsonlogginglog4j.CLR",
+        "method": "run",
+        "file": "CLR.java",
+        "line": 15
+      },
+      {
+        "class": "org.springframework.boot.SpringApplication",
+        "method": "lambda$callRunner$5",
+        "file": "SpringApplication.java",
+        "line": 798
+      },
+      {
+        "class": "org.springframework.util.function.ThrowingConsumer$1",
+        "method": "acceptWithException",
+        "file": "ThrowingConsumer.java",
+        "line": 83
+      },
+      {
+        "class": "org.springframework.util.function.ThrowingConsumer",
+        "method": "accept",
+        "file": "ThrowingConsumer.java",
+        "line": 60
+      },
+      {
+        "class": "org.springframework.util.function.ThrowingConsumer$1",
+        "method": "accept",
+        "file": "ThrowingConsumer.java",
+        "line": 88
+      },
+      {
+        "class": "org.springframework.boot.SpringApplication",
+        "method": "callRunner",
+        "file": "SpringApplication.java",
+        "line": 806
+      },
+      {
+        "class": "org.springframework.boot.SpringApplication",
+        "method": "callRunner",
+        "file": "SpringApplication.java",
+        "line": 797
+      },
+      {
+        "class": "org.springframework.boot.SpringApplication",
+        "method": "lambda$callRunners$3",
+        "file": "SpringApplication.java",
+        "line": 782
+      },
+      {
+        "class": "java.util.stream.ForEachOps$ForEachOp$OfRef",
+        "method": "accept",
+        "file": "ForEachOps.java",
+        "line": 183
+      },
+      {
+        "class": "java.util.stream.SortedOps$SizedRefSortingSink",
+        "method": "end",
+        "file": "SortedOps.java",
+        "line": 357
+      },
+      {
+        "class": "java.util.stream.AbstractPipeline",
+        "method": "copyInto",
+        "file": "AbstractPipeline.java",
+        "line": 510
+      },
+      {
+        "class": "java.util.stream.AbstractPipeline",
+        "method": "wrapAndCopyInto",
+        "file": "AbstractPipeline.java",
+        "line": 499
+      },
+      {
+        "class": "java.util.stream.ForEachOps$ForEachOp",
+        "method": "evaluateSequential",
+        "file": "ForEachOps.java",
+        "line": 150
+      },
+      {
+        "class": "java.util.stream.ForEachOps$ForEachOp$OfRef",
+        "method": "evaluateSequential",
+        "file": "ForEachOps.java",
+        "line": 173
+      },
+      {
+        "class": "java.util.stream.AbstractPipeline",
+        "method": "evaluate",
+        "file": "AbstractPipeline.java",
+        "line": 234
+      },
+      {
+        "class": "java.util.stream.ReferencePipeline",
+        "method": "forEach",
+        "file": "ReferencePipeline.java",
+        "line": 596
+      },
+      {
+        "class": "org.springframework.boot.SpringApplication",
+        "method": "callRunners",
+        "file": "SpringApplication.java",
+        "line": 782
+      },
+      {
+        "class": "org.springframework.boot.SpringApplication",
+        "method": "run",
+        "file": "SpringApplication.java",
+        "line": 341
+      },
+      {
+        "class": "org.springframework.boot.SpringApplication",
+        "method": "run",
+        "file": "SpringApplication.java",
+        "line": 1358
+      },
+      {
+        "class": "org.springframework.boot.SpringApplication",
+        "method": "run",
+        "file": "SpringApplication.java",
+        "line": 1347
+      },
+      {
+        "class": "com.example.jsonlogginglog4j.JsonLoggingLog4jApplication",
+        "method": "main",
+        "file": "JsonLoggingLog4jApplication.java",
+        "line": 10
+      }
+    ]
+  },
+  "endOfBatch": false,
+  "loggerFqcn": "org.apache.logging.slf4j.Log4jLogger",
+  "threadId": 1,
+  "threadPriority": 5
+}

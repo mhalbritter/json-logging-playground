@@ -1,0 +1,14 @@
+{
+  "timestamp": "2024-01-17T08:10:44.626Z",
+  "severity": "INFO",
+  "message": "Started JsonLoggingLog4jApplication in 0.853 seconds (process running for 1.422)",
+  "logging.googleapis.com/sourceLocation": {
+    "function": "org.springframework.boot.StartupInfoLogger.logStarted"
+  },
+  "logging.googleapis.com/insertId": "2",
+  "_exception": {
+    "stackTrace": ""
+  },
+  "_thread": "main",
+  "_logger": "com.example.jsonlogginglog4j.JsonLoggingLog4jApplication"
+}
