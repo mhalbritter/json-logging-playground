@@ -10,8 +10,9 @@ public class CLR implements CommandLineRunner {
     private static final Logger LOGGER = LoggerFactory.getLogger(CLR.class);
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         LOGGER.info("Run run run");
         LOGGER.error("Boom", new RuntimeException());
+        LOGGER.atInfo().addKeyValue("key", "value").log("Key Value Pairs");
     }
 }

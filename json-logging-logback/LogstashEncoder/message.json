@@ -1,0 +1,9 @@
+{
+  "@timestamp": "2024-01-17T09:44:58.718548399+01:00",
+  "@version": "1",
+  "message": "Started JsonLoggingLogstashApplication in 1.011 seconds (process running for 1.685)",
+  "logger_name": "com.example.jsonlogginglogstash.JsonLoggingLogstashApplication",
+  "thread_name": "main",
+  "level": "INFO",
+  "level_value": 20000
+}

@@ -1,7 +1,7 @@
 <Configuration>
     <Appenders>
         <Console name="ConsoleJSONAppender" target="SYSTEM_OUT">
-            <JsonTemplateLayout eventTemplateUri="classpath:JsonLayout.json"/>
+            <JsonTemplateLayout eventTemplateUri="classpath:LogstashJsonEventLayoutV1.json"/>
         </Console>
     </Appenders>
 

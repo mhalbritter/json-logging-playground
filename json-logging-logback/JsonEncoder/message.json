@@ -1,0 +1,16 @@
+{
+  "sequenceNumber": 0,
+  "timestamp": 1705483894762,
+  "nanoseconds": 762296569,
+  "level": "INFO",
+  "threadName": "main",
+  "loggerName": "com.example.jsonlogginglogstash.JsonLoggingLogstashApplication",
+  "context": {
+    "name": "default",
+    "birthdate": 1705483893742,
+    "properties": {}
+  },
+  "mdc": {},
+  "message": "Started JsonLoggingLogstashApplication in 0.904 seconds (process running for 1.434)",
+  "throwable": null
+}

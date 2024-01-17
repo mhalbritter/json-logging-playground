@@ -1,0 +1,10 @@
+{
+  "@timestamp": "2024-01-17T10:32:49.883194414+01:00",
+  "@version": "1",
+  "message": "Marker",
+  "logger_name": "com.example.jsonlogginglogstash.CLR",
+  "thread_name": "main",
+  "level": "INFO",
+  "level_value": 20000,
+  "field": "value"
+}

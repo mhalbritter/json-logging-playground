@@ -1,0 +1,147 @@
+{
+  "sequenceNumber": 0,
+  "timestamp": 1705483894764,
+  "nanoseconds": 764637105,
+  "level": "ERROR",
+  "threadName": "main",
+  "loggerName": "com.example.jsonlogginglogstash.CLR",
+  "context": {
+    "name": "default",
+    "birthdate": 1705483893742,
+    "properties": {}
+  },
+  "mdc": {},
+  "message": "Boom",
+  "throwable": {
+    "className": "java.lang.RuntimeException",
+    "message": "null",
+    "stepArray": [
+      {
+        "className": "com.example.jsonlogginglogstash.CLR",
+        "methodName": "run",
+        "fileName": "CLR.java",
+        "lineNumber": 16
+      },
+      {
+        "className": "org.springframework.boot.SpringApplication",
+        "methodName": "lambda$callRunner$5",
+        "fileName": "SpringApplication.java",
+        "lineNumber": 798
+      },
+      {
+        "className": "org.springframework.util.function.ThrowingConsumer$1",
+        "methodName": "acceptWithException",
+        "fileName": "ThrowingConsumer.java",
+        "lineNumber": 83
+      },
+      {
+        "className": "org.springframework.util.function.ThrowingConsumer",
+        "methodName": "accept",
+        "fileName": "ThrowingConsumer.java",
+        "lineNumber": 60
+      },
+      {
+        "className": "org.springframework.util.function.ThrowingConsumer$1",
+        "methodName": "accept",
+        "fileName": "ThrowingConsumer.java",
+        "lineNumber": 88
+      },
+      {
+        "className": "org.springframework.boot.SpringApplication",
+        "methodName": "callRunner",
+        "fileName": "SpringApplication.java",
+        "lineNumber": 806
+      },
+      {
+        "className": "org.springframework.boot.SpringApplication",
+        "methodName": "callRunner",
+        "fileName": "SpringApplication.java",
+        "lineNumber": 797
+      },
+      {
+        "className": "org.springframework.boot.SpringApplication",
+        "methodName": "lambda$callRunners$3",
+        "fileName": "SpringApplication.java",
+        "lineNumber": 782
+      },
+      {
+        "className": "java.util.stream.ForEachOps$ForEachOp$OfRef",
+        "methodName": "accept",
+        "fileName": "ForEachOps.java",
+        "lineNumber": 183
+      },
+      {
+        "className": "java.util.stream.SortedOps$SizedRefSortingSink",
+        "methodName": "end",
+        "fileName": "SortedOps.java",
+        "lineNumber": 357
+      },
+      {
+        "className": "java.util.stream.AbstractPipeline",
+        "methodName": "copyInto",
+        "fileName": "AbstractPipeline.java",
+        "lineNumber": 510
+      },
+      {
+        "className": "java.util.stream.AbstractPipeline",
+        "methodName": "wrapAndCopyInto",
+        "fileName": "AbstractPipeline.java",
+        "lineNumber": 499
+      },
+      {
+        "className": "java.util.stream.ForEachOps$ForEachOp",
+        "methodName": "evaluateSequential",
+        "fileName": "ForEachOps.java",
+        "lineNumber": 150
+      },
+      {
+        "className": "java.util.stream.ForEachOps$ForEachOp$OfRef",
+        "methodName": "evaluateSequential",
+        "fileName": "ForEachOps.java",
+        "lineNumber": 173
+      },
+      {
+        "className": "java.util.stream.AbstractPipeline",
+        "methodName": "evaluate",
+        "fileName": "AbstractPipeline.java",
+        "lineNumber": 234
+      },
+      {
+        "className": "java.util.stream.ReferencePipeline",
+        "methodName": "forEach",
+        "fileName": "ReferencePipeline.java",
+        "lineNumber": 596
+      },
+      {
+        "className": "org.springframework.boot.SpringApplication",
+        "methodName": "callRunners",
+        "fileName": "SpringApplication.java",
+        "lineNumber": 782
+      },
+      {
+        "className": "org.springframework.boot.SpringApplication",
+        "methodName": "run",
+        "fileName": "SpringApplication.java",
+        "lineNumber": 341
+      },
+      {
+        "className": "org.springframework.boot.SpringApplication",
+        "methodName": "run",
+        "fileName": "SpringApplication.java",
+        "lineNumber": 1358
+      },
+      {
+        "className": "org.springframework.boot.SpringApplication",
+        "methodName": "run",
+        "fileName": "SpringApplication.java",
+        "lineNumber": 1347
+      },
+      {
+        "className": "com.example.jsonlogginglogstash.JsonLoggingLogstashApplication",
+        "methodName": "main",
+        "fileName": "JsonLoggingLogstashApplication.java",
+        "lineNumber": 10
+      }
+    ]
+  }
+}

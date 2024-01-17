@@ -1,0 +1,12 @@
+{
+  "mdc": {
+    "key": "value"
+  },
+  "@version": 1,
+  "source_host": "PC",
+  "message": "Key Value Pairs",
+  "thread_name": "main",
+  "@timestamp": "2024-01-17T10:33:50.868+0100",
+  "level": "INFO",
+  "logger_name": "com.example.jsonlogginglog4j.CLR"
+}
