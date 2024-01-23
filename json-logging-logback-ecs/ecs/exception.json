@@ -1,0 +1,12 @@
+{
+  "@timestamp": "2024-01-23T10:56:56.918Z",
+  "log.level": "ERROR",
+  "message": "Boom",
+  "ecs.version": "1.2.0",
+  "service.name": "my-application",
+  "event.dataset": "my-application",
+  "process.thread.name": "main",
+  "log.logger": "com.example.jsonloggingecs.CLR",
+  "error.type": "java.lang.RuntimeException",
+  "error.stack_trace": "java.lang.RuntimeException\n\tat com.example.jsonloggingecs.CLR.run(CLR.java:15)\n\tat org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:798)\n\tat org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)\n\tat org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)\n\tat org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88)\n\tat org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:806)\n\tat org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:797)\n\tat org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:782)\n\tat java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)\n\tat java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n\tat java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)\n\tat java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)\n\tat org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:782)\n\tat org.springframework.boot.SpringApplication.run(SpringApplication.java:341)\n\tat org.springframework.boot.SpringApplication.run(SpringApplication.java:1358)\n\tat org.springframework.boot.SpringApplication.run(SpringApplication.java:1347)\n\tat com.example.jsonloggingecs.JsonLoggingEcsApplication.main(JsonLoggingEcsApplication.java:10)\n"
+}

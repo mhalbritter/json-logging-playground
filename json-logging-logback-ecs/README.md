@@ -1,0 +1,7 @@
+# ECS Logback appender
+
+Outputs something like
+
+```json
+{"@timestamp":"2024-01-23T10:56:56.917Z","log.level": "INFO","message":"Started JsonLoggingEcsApplication in 0.352 seconds (process running for 0.509)","ecs.version": "1.2.0","service.name":"my-application","event.dataset":"my-application","process.thread.name":"main","log.logger":"com.example.jsonloggingecs.JsonLoggingEcsApplication"}
+```
