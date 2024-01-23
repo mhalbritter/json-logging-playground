@@ -1,0 +1,12 @@
+{
+  "@timestamp": "2024-01-23T12:27:53.004Z",
+  "log.level": "INFO",
+  "message": "MDC",
+  "ecs.version": "1.2.0",
+  "service.name": "my-application",
+  "service.version": "1.0.0-SNAPSHOT",
+  "event.dataset": "my-application",
+  "process.thread.name": "main",
+  "log.logger": "com.example.jsonloggingecs.CLR",
+  "key": "value"
+}
