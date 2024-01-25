@@ -14,7 +14,7 @@
     <!--    </root>-->
 
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
-        <encoder class="co.elastic.logging.logback.EcsEncoder">
+        <encoder class="com.example.jsonloggingecs.KeyValuePairEcsEncoder">
             <serviceName>my-application</serviceName>
             <serviceVersion>1.0.0-SNAPSHOT</serviceVersion>
         </encoder>
